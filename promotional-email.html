@@ -1,0 +1,543 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap" rel="stylesheet">
+  <title>Treehouse Festival Example</title>
+  <style>
+    table {
+    border-collapse: separate;
+    border-spacing: 0;
+    }
+      
+    body, html {
+      width: 100%;
+    }
+
+    /* midsizers*/
+    @media only screen and (max-width: 960px){
+        .container{
+          width: 600px;
+        }
+      }
+    
+    /* mobile */
+    @media only screen and (max-width: 599px){
+      .contianer{
+        width: 100%;
+      }
+      .left-column{
+        width:100%;
+        text-align: center;
+      }
+     
+      .right-column{
+        width:100%;
+        text-align: center;
+      }
+
+      .header-table .left-column{
+        padding: 50px 0px 20px;
+      }
+      .header-table {
+        padding-bottom: 20px;
+      }
+
+      .header-img-treehouse {
+        width:258px !important;
+        height:58px !important;
+      }
+
+      .header-menu-links{
+        font-size:20px;
+        word-spacing:10px;
+        
+      }
+
+      .header-table .right-column{
+        padding:0px !important;
+      }
+
+      #days-code-img{
+        margin:0 !important;
+      }
+
+      .schedule-header{ 
+          padding-bottom: 10px !important;
+         
+      }
+      .date-schedule-table .right-column p{
+        margin:0 !important;
+      }
+
+      .this-event img{
+        width: 177px !important;
+        height: 54px !important;
+        padding-bottom:40px;
+      }
+
+      #tribaja{
+        padding-bottom:30px;
+      }
+      #adobe{
+        width: 217px !important;
+        height: 47px !important;
+      }
+      
+      #chicktech{
+        padding-bottom: 0px;
+      }
+
+    }
+
+  
+  </style>
+</head>
+<body style="background: #F9E6FF;">
+  
+  <!--Container-->
+  <table class="container" style="background-color: white;  width:600px; font-family: Helvetica, Arial, sans-serif" cellpadding="0" cellspacing="0" border="0" align="center" >
+ 
+    <!-- Header Row -->
+    <tr> 
+      <td style="padding:15px 20px; background:white;" width="100%" >
+       <table class="header-table" >
+         <tr>
+           <td>
+             <!-- start of left column-->
+            <table class="left-column" align="left"  >
+              <tr>
+                <td>
+                  <a href="http://teamtreehouse.com"> 
+                    <img src="https://i.postimg.cc/pdPC1pC9/treehouse-logo.png"  class="header-img-treehouse" style="width:130px; height:29px;"  alt="treehouse logo">
+                  </a>
+                  
+                </td>
+               </tr>   
+             </table> <!-- end of left column-->
+             <!-- start of right column-->
+             <table class="right-column" align="right" style="padding: 5px 0px 0px 80px;" >
+               <tr>
+                <td class="header-menu-links">
+                 <a href="https://https://teamtreehouse.com/techdegree" style="padding:0 5px; color: #0098b1;" >Techdegree</a>
+                 <a href="https://teamtreehouse.com/tracks" style="padding:0 5px; color: #0098b1;" >Tracks</a>
+                 <a href="https://teamtreehouse.com/libray" style="padding:0 5px; color: #0098b1;" >Library</a>
+                 <a href="https://teamtreehouse.com/community" style="padding:0 5px; color: #0098b1;">Community</a>
+               </td>
+              </tr>
+             </table> <!-- end of right column-->
+           </td>
+         </tr>
+       </table><!--end logo image table-->
+      </td>  
+    </tr><!-- End of Header Row-->
+ 
+    
+    <!-- Hero Image Row-->
+    <tr>
+      <td width="100%">
+       <!-- start of column--> 
+       <table width="100%" class="festival-table">
+         <tr>
+           <td>
+             <img src="https://i.postimg.cc/pT6BTkH8/festival.png"  height="300" width="600" alt="tree house festival hero image" style="padding-bottom:50px">
+           </td>
+         </tr>
+       </table> <!-- end of column--> 
+      </td>
+    </tr> <!-- End Hero Image Row-->
+
+    <!-- Treehouse Festival Row-->
+    <tr>
+      <td style="padding-bottom: 40px;">
+        <!-- start of column--> 
+        <table class="treehouse-festival-table">
+          <tr>
+            <td align="center" style="text-align: center; padding: 10px 20px; ">
+              <h2 style="color: #2e5cb7; margin:0px;"> Treehouse Festival: Day One </h2>
+            </td>
+          </tr>
+          <tr>
+            <td align="center" style="text-align: center; padding: 10px 20px;  ">
+              <p style="margin: 0px; color: #576467; line-height:30px;">
+                Welcome to the first day of the Treehouse Festival! <b>The event is now open.</b> The next five days are going to be a journey of learning, networking, advice, crucial conversations, and so much more. We look forward to having you join thousands of Treehouse students for this special event. See you there!
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td align="center" style="text-align: center; padding-top:20px; padding-bottom:10px;">
+              <a href="http:\\teamtreehouse.com\">
+                <button style="background-color: #00a4bd; color:white;  border-radius:5px; font-size:16px; font-weight: bold; padding:15px 50px; border:0px; ">
+                  Join the Festival
+                </button>
+              </a>   
+            </td>
+          </tr> 
+        </table> <!-- start of column--> 
+      </td>
+    </tr>   <!-- End Treehouse Festival Row-->
+    
+    <!-- Today's Schedule Row-->
+    <tr>
+      <td style="padding:0px 0px 40px;">
+        <table class="todays-schedule-table" style="width:100%;">
+          <tr>
+            <td>
+              <hr style="border-top: 2px solid #17bf62">
+            </td>
+          </tr>
+          <tr>
+            <td align="center"  class="schedule-header" style="text-align: center; padding: 40px 20px; width:100%;">
+              <h2 style="color: #2e5cb7; margin:0px;"> Today's Schedule </h2>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <table class="date-schedule-table" width="100%" >
+                <tr>
+                  <td style="padding: 0px 20px;">
+                    <!-- start of left column--> 
+                    <table class="left-column" align="left" width="50%">
+                      <tr>
+                        <td width="40%;" style="text-align:center; color:#576467 ;">
+                          <p style="font-size: 24px; font-weight: bold; margin-top:15px;">
+                            9AM PST
+                          </p>
+                        </td>
+                      </tr>
+                    </table> <!-- end of left column--> 
+                    <!-- start of right column--> 
+                    <table class="right-column" width="50%" >
+                      <tr>
+                        <td width="60%; " style="padding:0px 10px;">
+                          <p style="color:#576467;  line-height: 20px; font-size: 18px; font-weight:bold; font-style:italic;">
+                            No Such Thing as the Right Path <br> 
+                            <span style="font-size: 16px; font-weight:normal; font-style: normal;"> With Anthony Culver (He/Him) </span>  
+                          </p>
+                        </td>
+                      </tr>
+                    </table> <!-- end of right column--> 
+                    <tr>
+                      <td>
+                        <!-- start of left column--> 
+                        <table class="left-column" align="left" width="50%">
+                          <tr>
+                            <td width="40%;" style="text-align:center; color:#576467 ;">
+                              <p style="font-size: 24px; font-weight: bold; margin-top:15px;">
+                                9:30AM PST
+                              </p>
+                            </td>
+                          </tr>
+                        </table><!-- end of left column--> 
+                        <!-- start of right column--> 
+                        <table class="right-column" width="50%">
+                          <tr>
+                            <td width="60%; " style="padding:0px 10px;">
+                              <p style="color:#576467;  line-height: 20px; font-size: 18px; font-weight:bold; font-style:italic; margin-top:15px;">
+                                Prototyping with Sound: Audio & Speech Playback in Adobe XD <br> 
+                                <span style="font-size: 16px; font-weight:normal; font-style: normal;"> With Matt Rae (He/Him) </span>  
+                              </p>
+                            </td>
+                          </tr>
+                        </table>
+                        <!-- end of right column--> 
+                      </td>
+                    </tr>
+                    
+                    <tr>
+                      <td>
+                        <!-- start of left column--> 
+                        <table class="left-column" align="left" width="50%">
+                          <tr>
+                            <td width="40%;" style="text-align:center; color:#576467 ;">
+                              <p style="font-size: 24px; font-weight: bold; margin-top:15px;">
+                                10AM PST 
+                              </p>
+                            </td>
+                          </tr>
+                        </table> <!-- end of left column--> 
+                        <!-- start of right column--> 
+                        <table  class="right-column" width="50%">
+                          <tr>
+                            <td width="60%; " style="padding:0px 10px;">
+                              <p style="color:#576467;  line-height: 20px; font-size: 18px; font-weight:bold; font-style:italic; margin-top:15px;">
+                                My Developer Journey and Q&A <br> 
+                                <span style="font-size: 16px; font-weight:normal; font-style: normal;"> With Aaron Billings (He/Him) and Ryan Mouser (He/Him) </span>  
+                              </p>
+                            </td>
+                          </tr>
+                        </table> <!-- start of right column--> 
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <!-- start of left column--> 
+                        <table class="left-column" align="left" width="50%">
+                          <tr>
+                            <td width="40%;" style="text-align:center; color:#576467 ;">
+                              <p style="font-size: 24px; font-weight: bold; margin-top:15px;">
+                                10AM PST 
+                              </p>
+                            </td>
+                          </tr>
+                        </table ><!-- end of left column--> 
+                        <!-- start of right column--> 
+                        <table class="right-column" width="50%">
+                          <tr>
+                            <td width="60%; " style="padding:0px 10px;">
+                              <p style="color:#576467;  line-height: 20px; font-size: 18px; font-weight:bold; font-style:italic;">
+                                Women in Engineering: Who Run the World? <br> 
+                                <span style="font-size: 16px; font-weight:normal; font-style: normal;"> With Dr. Toni Josato (She/Her), Leila Kaneda (She/Her), Betza Villarreal, and Daelynn Moyer (She/Her) </span>  
+                              </p>
+                            </td>
+                          </tr>
+                        </table><!-- start of right column--> 
+                      </td>
+                    </tr>
+                   <tr>
+                     <td>
+                       <!-- start of left column--> 
+                       <table class="left-column" align="left" width="50%">
+                      <tr>
+                        <td width="40%;" style="text-align:center; color:#576467 ;">
+                          <p style="font-size: 24px; font-weight: bold; margin-top:15px;">
+                            11AM PST 
+                          </p>
+                        </td>
+                      </tr>
+                    </table><!-- end of left column-->
+                    <!-- start of right column-->
+                    <table class="right-column" width="50%">
+                      <tr>
+                        <td width="60%; " style="padding:0px 10px;">
+                          <p style="color:#576467;  line-height: 20px; font-size: 18px; font-weight:bold; font-style:italic;">
+                            Music Hour <br> 
+                            <span style="font-size: 16px; font-weight:normal; font-style: normal;"> With Mic Crenshaw </span>  
+                          </p>
+                        </td>
+                      </tr>
+                    </table> <!-- end of right column-->
+                     </td>
+                   </tr>
+                  </td>
+                </tr> 
+                <tr>
+                  <td align="center" style="text-align: center; padding-top:20px; padding-bottom:40px;">
+                    <a href="http:\\teamtreehouse.com\">
+                      <button style="background-color: #00a4bd; color:white;  border-radius:5px; font-size:16px; padding:15px 50px; font-weight: bold; border:0px; ">
+                        Join the Festival
+                      </button>
+                    </a>   
+                  </td>
+                </tr>       
+              </table>
+            </td>
+          </tr>   <!-- End Today's Schedule Row-->
+    </tr>   
+     <!-- Giveway Hero Image Row-->
+     <tr>
+      <td width="100%">
+        <!-- start of  column-->
+       <table class="giveaway-table" width="100%">
+         <tr>
+           <td>
+             <img src="https://i.postimg.cc/dtT57MD0/giveaway.png" height="300" width="600" alt="tree house giveaway hero image" style="padding-bottom:50px">
+           </td>
+         </tr>
+       </table> <!-- start of  column-->
+      </td>
+    </tr> <!-- End Giveaway Hero Image Row-->
+    
+    <!-- Win Three Months Row-->
+    <tr>
+      <td style="padding-bottom: 40px;">
+        <!-- start of  column-->
+        <table class="treehouse-festival-table">
+          <tr>
+            <td align="center" style="text-align: center; padding: 10px 20px; ">
+              <h2 style="color: #2e5cb7; margin:0px;"> Win three months of Techdegree or one year of Adobe Creative Cloud</h2>
+            </td>
+          </tr>
+          <tr>
+            <td align="center" style="text-align: center; padding: 10px 20px;  ">
+              <p style="margin: 0px; color: #576467; line-height:30px;">All registrants to the Treehouse Festival will automatically be entered to win either three months of Techdegree or one year of Adobe Creative Cloud. Are you a current student who likes free stuff? Make sure you're registered for the Festival to be entered in today's giveaway!
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td align="center" style="text-align: center; padding-top:20px; padding-bottom:10px;">
+              <a href="http:\\treehouse.com\">
+                <button style="background-color: #00a4bd; color:white;  border-radius:5px; font-size:16px; font-weight: bold; padding:15px 50px; border:0px; ">
+                  Register Today
+                </button>
+              </a>   
+            </td>
+          </tr> 
+        </table><!-- endof  column-->
+      </td>
+    </tr>   <!-- End Win Three Months Row-->
+    
+    <!-- Are You Ready Row-->
+    <tr>
+      <td style="padding:0px 20px 0px;">
+        <table class="are-you-ready-table" style="width:100%;">
+          <tr>
+            <td style="padding:10px 0px;">
+              <hr style="border-top: 2px solid #17bf62; ">
+            </td>
+          </tr>
+          <tr>
+            <td align="center" style="text-align: center; padding: 20px 20px; width:100%;">
+              <h2 style="color: #2e5cb7; margin:0px;"> Are you ready to start a new learning journey? Join #100DaysOfCode. </h2>
+            </td>
+          </tr>
+          <tr> 
+            <td >
+              <!-- start of left column-->
+              <table class="left-column" align="left">
+                <tr>
+                  <td>
+                    <img src="https://i.postimg.cc/2y12FMw2/days-code.png" id="days-code-img" width="175" height="195" alt="100 days of code image" style="padding: 10px 0px; margin-left: 30px;">
+                  </td>
+                  </tr>
+                </table> <!-- end of left column-->
+                <!-- start of right column-->
+                <table class="right-column">
+                  <tr>
+                  <td style="padding:0px 35px 35px;">
+                    <p style="margin: 0px; color: #576467; line-height:30px; padding:10px 5px 15px; ">       	
+                      Join the #100DaysOfCode challenge through Treehouse to receive coaching emails filled with free resources and tune into our weekly podcast.
+                    </p>
+                    <a href="http://teamtreehouse.com">
+                      <button style="background-color: #00a4bd; color:white;  border-radius:5px; font-size:16px; font-weight: bold; padding:15px 20px; border:0px; ">
+                        Learn More
+                      </button>
+                    </a>
+                    
+                  </td>
+                </tr>
+              </table> <!-- start of right column-->
+            </td>
+          </tr>   
+        </table>
+      </td>
+    </tr>  <!-- End of Are You Ready Row--> 
+
+    <!--This event Row-->
+    <tr>
+      <td style="background-color: #F0F5F6; padding:50px 0px;">
+        <table width="100%" class="this-event" >
+          <tr>
+            <td align="center" style="text-align: center; padding: 0px 20px 20px; width:100%;">
+              <h2 style="color: #2e5cb7; margin:0px 0px 10px 0px;"> This event is proudly supported by </h2>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <!-- start of left column-->
+              <table class="left-column" align="left" width="25%">
+                <tr>
+                  <td style="padding:0px 20px;">
+                    <img src="https://i.postimg.cc/1zMBxs7v/tribaja-logo.png" id="tribaja" alt="Tribaja Logo" style="width:90px; height:28px;">
+                  </td>
+                </tr>
+              </table> <!-- end of left column-->
+              <!-- start of left column-->
+              <table class="left-column" align="left" width="25%">
+                <tr>
+                  <td style="padding:0px 20px;">
+                    <img src="https://i.postimg.cc/4dN8nmhC/adobe-logo.png" id="adobe" alt="Adobe Logo" style="width:90px; height:28px;">
+                  </td>
+                </tr>
+              </table> <!-- end of left column-->
+              <!-- start of left column-->
+              <table class="left-column" align="left" width="25%">
+                <tr>
+                  <td style="padding:0px 20px;">
+                    <img src="https://i.postimg.cc/L8KNLyZ3/pdxwit-logo.png" id="pdxwit" alt="PDXWIT Logo" style="width:90px; height:28px;">
+                  </td>
+                </tr>
+              </table> <!-- end of left column-->
+              <!-- start of left column-->
+              <table class="left-column" align="right" width="25%">
+                <tr>
+                  <td style="padding:0px 20px;">
+                    <img src="https://i.postimg.cc/BvCYqxbc/chicktech-logo.png" id="chicktech" alt="Chick Tech Logo" style="width:90px; height:28px;">
+                  </td>
+                </tr>
+              </table><!-- end of left column-->
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr> <!--End of this event Row-->
+    
+    <tr> <!--Footer Row-->
+      <td style="background-color: #323952; color:white; padding:100px 32px;" >
+        <!-- start of column-->
+        <table class="footer-table" >
+          <tr>
+            <td align="center" style="padding-bottom: 20px;">
+              <p style="line-height: 25px; font-size:15px; margin:0px; ">
+                Treehouse Island, Inc., 9450 Southwest Gemini Drive, PMB 90505, Beaverton, OR 97008, United States
+              </p>
+              <a style="color: #5fcf80; padding:0px 2px; font-size:12px; text-transform: capitalize;"  href="#">
+                Unsubscribe
+              </a>
+              <a style="color: #5fcf80; padding:0px 2px; font-size:12px; text-transform: capitalize;" href="#">
+                Manage
+              </a>
+              <a style="color: #5fcf80; padding:0px 2px; font-size:12px; text-transform: capitalize;" href="#">
+                Preferences
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td align="center" ">
+              <table class="social-media-table">
+                <td>
+                  <a href="http://twitter.com">
+                    <img src="https://i.postimg.cc/x1vgRKvD/twitter-icon.png" style="width:34px; height:35px; padding:8px 5px;" alt="twitter icon">
+                  </a>
+                </td>
+                <td>
+                  <a href="http://instagram.com">
+                    <img src="https://i.postimg.cc/L5GvyDQR/instagram-icon.png" style="width:34px; height:35px; padding:8px 5px;"   alt="instagram icon"> 
+                  </a>
+                </td>
+                <td>
+                  <a href="http://youtube.com">
+                    <img src="https://i.postimg.cc/FRRZN82N/youtube-icon.png"  style="width:34px; height:35px; padding:8px 5px;"alt="youtube icon"> 
+                  </a> 
+                </td>
+                <td>
+                  <a href="http://linkedin.com">
+                    <img src="https://i.postimg.cc/gc7Mkcz5/linkedin-icon.png" style="width:34px; height:35px; padding:8px 5px;" alt="twitter icon">
+                  </a>
+                </td>
+
+                <td>
+                  <a href="http://facebook.com">
+                    <img src="https://i.postimg.cc/1tCvFsp8/facebook-icon.png" style="width:34px; height:35px; padding:8px 5px;" alt="facebook icon">
+                  </a>
+                </td>
+              </table>
+            </td>
+          </tr>
+        </table> <!-- end of column-->
+      </td>
+    </tr> <!--End of Footer-->
+    
+    
+  </table> 
+  <!-- End of Container-->
+</body>
+</html>
+
+
+
+<!-- Start on -->
